@@ -25,6 +25,7 @@ const Cut: FunctionComponent<ExampleProps> = ({ progress }) => (
             trackStrokeLinecap="butt"
             cut={120}
             rotate={-210}
+           pointerStrokeWidth={50}
         >
             <div className="indicator">
                 <div>{progress}%</div>
